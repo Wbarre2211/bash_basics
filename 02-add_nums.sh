@@ -20,6 +20,22 @@ totalPixels=$(( height*width ))
 
 echo "The total number of pixels is $totalPixels"
 
+#Scott Barre added
+
+echo ""
+echo "What is the width of your box?"
+read width
+echo ""
+echo "What is the length of your box?"
+read length
+echo ""
+echo "What is the height of your box?"
+read height
+
+echo ""
+area=$(( $width * $length * $height ))
+echo "Your box has an area of ${area}." 
+
 # exercise: ask the user for the width and height and present total
 # number of pixels
 
