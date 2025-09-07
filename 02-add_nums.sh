@@ -20,6 +20,19 @@ totalPixels=$(( height*width ))
 
 echo "The total number of pixels is $totalPixels"
 
+#Scott Barre added 
+
+echo ""
+echo "What is the base of your triangle?"
+read base
+echo ""
+echo "What is the height of your triangle?"
+read height
+
+echo ""
+area=$(( ($base * $height)/2 ))
+echo "Your triangle has an area of ${area}." 
+
 # exercise: ask the user for the width and height and present total
 # number of pixels
 
